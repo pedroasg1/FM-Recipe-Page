@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap');
+/* font-family: "Young Serif", serif; */
+/* font-family: "Outfit", sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+
+body{
+    background: hsl(30, 54%, 90%);
+    font-family: "Outfit", sans-serif;
+}
+
+.card{
+    width: 800px;
+    margin: 120px auto;
+    padding: 50px;
+    background: hsl(0, 0%, 100%);
+    border-radius: 30px;
+}
+
+.card__img{
+    width: 100%;
+    padding: 10px auto;
+    border-radius: 30px;
+}
+
+.card__title{
+    font-family: "Young Serif", serif;
+    font-size: 3rem;
+    font-weight: 200;
+    padding-top: 20px;
+}
+
+.card__paragraph1{
+    padding: 20px 0 30px 0;
+}
+
+.card__preparation{
+    background: hsl(330, 100%, 98%);
+    width: 100%;
+    border-radius: 30px;
+    margin: 0 auto;
+}
+
+.card__title2{
+    color: hsl(332, 51%, 32%);
+    font-size: 20px;
+    padding: 30px 0 20px 40px;
+}
+
+.ul__preparation{
+    padding-left: 60px;
+    padding-bottom: 20px;
+    line-height: 40px;
+}
+
+.ul__preparation li::marker{
+    color: hsl(332, 51%, 32%);
+}
+
+
+.card__title3{
+    color: hsl(14, 45%, 36%);
+    font-size: 2rem;
+    font-family: "Young Serif", serif;
+    font-weight: 200;
+    padding: 20px 0;
+}
+
+.card__ingredients{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.445);
+    padding-bottom: 2.5rem;
+}
+
+.ul__ingredients{
+    padding-left: 20px;
+    line-height: 30px
+}
+
+.ul__ingredients li::marker{
+    color: hsl(14, 45%, 36%);
+    padding: 0 0 30px 20px;
+}
+
+
+.card__title4{
+    color: hsl(14, 45%, 36%);
+    font-size: 2rem;
+    font-family: "Young Serif", serif;
+    font-weight: 200;
+    padding: 30px 0 10px 0;
+}
+
+.card__instructions{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.445);
+    padding-bottom: 2.5rem;
+}
+
+.ol__instructions{
+    padding: 5px 0 0 20px;
+}
+
+.ol__instructions li::marker{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: hsl(14, 45%, 36%);
+    line-height: 50px;
+}
+
+.card__title5{
+    color: hsl(14, 45%, 36%);
+    font-size: 2rem;
+    font-family: "Young Serif", serif;
+    font-weight: 200;
+    padding: 30px 0 10px 0;
+}
+
+.card__paragraph2{
+    padding: 10px 0 20px 0;
+}
+
+table{
+    width: 700px;
+    border-collapse: collapse;
+}
+
+.line{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.445);
+    
+}
+
+td{
+    padding: 10px 0 10px 30px;
+}
+
+.data{
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
